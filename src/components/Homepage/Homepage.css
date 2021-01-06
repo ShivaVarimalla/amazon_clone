@@ -1,0 +1,20 @@
+.Homepage{
+  color: #fff;
+  text-align: center;
+  width: auto;
+  padding-top: 30px;
+}
+.content{
+    display: flex;
+    height: auto;
+    max-width: 1444px;
+    text-align: center;
+    background-color: rebeccapurple;
+    justify-content: center;
+
+}
+.scroll{
+  color: white;
+  font-size: large;
+}
+

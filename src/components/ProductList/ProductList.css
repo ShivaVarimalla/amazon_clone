@@ -1,0 +1,19 @@
+.productlist{
+    max-width: 1700px;
+    margin: 0 auto;
+    margin-top: 40px;
+ }
+ .productlist_card{
+     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+     padding: 20px;
+     background-color: white;
+     max-width: 90%;
+     margin:0 auto;
+     border-radius: 5px;
+     border: 15px solid rgb(236, 170, 26);
+     
+ }
+ .title_text{
+    display:flex;
+     justify-content: center;
+ }

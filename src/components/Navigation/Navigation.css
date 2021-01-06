@@ -1,0 +1,55 @@
+.input{
+    width: 60%;
+    height:50px;
+    color: black;
+    border-radius: 5px;
+    align-self: center;
+}
+.nav{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    z-index: 1;
+}
+.ant-layout-header{
+    padding: 0 0;
+}
+.button{
+    background-color: white;
+    height: 50px;
+    width:50px;
+}
+.search{
+    height: 46px;
+    width: 45px;
+    margin-left: 3px;
+    margin-top:11px;
+}
+.menu{
+    color:white;
+    padding: 12px;
+    margin-right: 5px;  
+    border-radius: 3px;
+    background-color: #f2b90f;
+}
+.header-logo{
+    padding-top: 10px;
+    width: 90px;
+    height:40px;
+    padding-left: 10px;
+}
+.nav-logo-locale{
+    color: white;
+    padding-right: 10px;
+}
+.cart{
+        color:white;
+        padding: 15px;
+        border-radius: 3px;
+        background-color: #f2b90f;
+        margin-top: 5px;
+        margin-left: 200px;
+}
