@@ -6,7 +6,7 @@ import { Button } from 'antd';
 
 const SingleProduct=(props)=> {
   const[single, setsingle] = useState([])
-  useEffect(async ()=>{
+  useEffect( async ()=>{
     console.log(props.match.params.id)
     let single_product = await fetch("https://fakestoreapi.com/products")
     single_product = await single_product.json()

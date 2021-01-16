@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import {BrowserRouter, Route} from 'react-router-dom'
 import './App.css';
 import Homepage from './components/Homepage/Homepage'
@@ -7,7 +7,7 @@ import ProductList from './components/ProductList/ProductList';
 import SingleProduct from './components/SingleProduct/SingleProduct'
 import Search from './components/Search/Search'
 import NavMenu from './components/NavMenu/NavMenu';
-import { Layout, Menu } from 'antd';
+import { Layout } from 'antd';
 
 
 

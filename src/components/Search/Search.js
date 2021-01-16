@@ -7,7 +7,6 @@ import { Link } from 'react-router-dom';
 const Search=(props)=>{
     const[search,setsearch] = useState([])
     useEffect(async ()=>{
-        //console.log(props.match.params.value)
         let item_search = await fetch("https://fakestoreapi.com/products")
         item_search = await item_search.json()
         let search_item = []

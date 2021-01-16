@@ -3,14 +3,12 @@ import './NavMenu.css'
 import { Layout, Menu } from 'antd';
 import { Redirect } from 'react-router-dom';
 import {
-  MenuUnfoldOutlined,
-  MenuFoldOutlined,
   UserOutlined,
   VideoCameraOutlined,
   UploadOutlined,
 } from '@ant-design/icons';
 
-const { Header, Sider, Content } = Layout;
+const { Sider } = Layout;
 
 const NavMenu =( props)=> {
   const [items, setitems] = useState('')
